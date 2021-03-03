@@ -17,8 +17,8 @@ audio{
 	background-color:lightpink;
 }
 .font-family {
-  font-family: 'Dancing Script', cursive;
-  font-size: 22px;
+  font-family: 'Dancing Script', cursive!important;
+  font-size: 22px!important;
 }
 .change-color-text {
   position: relative;
