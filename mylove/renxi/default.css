@@ -19,7 +19,7 @@ audio{
 .change-color-text {
   position: relative;
   animation-name: example;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-iteration-count: 10000;
 }
 
