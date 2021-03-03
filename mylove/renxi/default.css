@@ -18,6 +18,7 @@ audio{
 }
 .change-color-text {
   position: relative;
+font-family: 'Dancing Script', cursive;
   animation-name: example;
   animation-duration: 8s;
   animation-iteration-count: 10000;
