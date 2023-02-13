@@ -25,9 +25,6 @@
 	<audio id="audioID" loop">
 		<source src="music/love.mp3" type="audio/mp3">
 	</audio>
-	<script>
-	var myaudio = document.getElementById("audioID").autoplay = true;
-	</script>
         <div id="main">
 		
              <div id="wrap">
@@ -115,6 +112,7 @@
         var hold = 1;
 
         canvas.click(function(e) {
+            var myaudio = document.getElementById("audioID").play();
             var offset = canvas.offset(), x, y;
             x = e.pageX - offset.left;
             y = e.pageY - offset.top;
