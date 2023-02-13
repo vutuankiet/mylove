@@ -22,10 +22,12 @@
         </style>
 </head>
     <body>
-	<iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none!important"></iframe>
-	<audio autoplay loop">
+	<audio id="audioID" loop">
 		<source src="music/love.mp3" type="audio/mp3">
 	</audio>
+	<script>
+	var myaudio = document.getElementById("audioID").autoplay = true;
+	</script>
         <div id="main">
 		
              <div id="wrap">
