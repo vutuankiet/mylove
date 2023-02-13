@@ -1,2 +1,2 @@
 # mylove.php
-https://vutuankiet.github.io/mylove/mylove/index.html
+https://vutuankiet.github.io/mylove/index.html
